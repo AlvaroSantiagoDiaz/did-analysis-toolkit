@@ -29,7 +29,7 @@ Function | Purpose
 -- | --
 clean_landing_page_data | Cleans, aggregates, feature-engineers, and applies a data maturity filter (removes recent, unstable days).
 merge_dataframes | Merges LP data with session data and calculates all final ratio metrics (e.g., $\text{roas internal}$, $\text{session 2 search}$).
-analyze\_did\_assumptions | Calculates the pre-period correlation between all $\text{DID\_METRICS}$ and potential control pages to guide control group selection.
+analyze\_did\_assumptions | Calculates the pre-period correlation between all $\text{DID METRICS}$ and potential control pages to guide control group selection.
 run\_did\_regression | Executes the 5-term $\text{OLS}$ regression and returns the $\text{statsmodels}$ results object with cluster-robust errors.
 plot\_did\_summary | Visualizes the causal effect ($\text{DID}$ coefficient) as a four-point graph (Control Actual, Treated Actual, Counterfactual).
 
